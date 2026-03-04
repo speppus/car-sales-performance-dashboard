@@ -151,6 +151,27 @@ Suggested actions include:
 - continuous monitoring of the stock pressure index
 - focusing on high-growth brands
 
+- ---
+
+# ⭐ Key Business Insights
+
+The analysis revealed several important insights about sales performance and inventory management within the dealership:
+
+### 📈 Strong Revenue Performance
+The dealership shows strong overall revenue performance, with revenue concentrated across a small number of top-performing brands.
+
+### 🚗 Premium Brands Drive Higher Revenue
+Premium brands tend to generate higher revenue, supported by higher average selling prices and stable demand patterns.
+
+### 📦 Inventory Pressure Is Not Even Across Brands
+The Stock Pressure Index highlights that inventory pressure differs across brands and models, suggesting the need for targeted inventory monitoring.
+
+### ⚠️ Potential Inventory Risk Areas
+Some brands show high inventory pressure combined with strong sales performance, indicating a potential risk of inventory imbalance that should be monitored carefully.
+
+### 🎯 Opportunities for Optimization
+Brands with lower revenue performance but similar inventory pressure may benefit from pricing adjustments, promotional strategies, or improved inventory allocation.
+
 ---
 
 # 🧹 Data Cleaning (Python)
