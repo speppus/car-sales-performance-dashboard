@@ -28,7 +28,7 @@ La home della dashboard funge da **hub di navigazione** e consente di accedere r
 
 # 📊 Executive Overview
 
-![Executive Overview](images/1_Executive%20 Overview.png)
+![Executive Overview](images/1_Executive%20Overview.png)
 
 Questa sezione fornisce una panoramica generale delle performance della concessionaria.
 
