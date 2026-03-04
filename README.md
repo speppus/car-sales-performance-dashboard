@@ -94,7 +94,7 @@ Il grafico permette di identificare **trend stagionali e variazioni delle vendit
 
 # 📦 Model Performance & Stock Pressure
 
-![Model Performance](images/5_Product%20&%20Stock Model.png)
+![Model Performance](images/5_Product%20&%20Stock%20Model.png)
 
 Questa sezione analizza la relazione tra:
 
