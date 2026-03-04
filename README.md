@@ -1,20 +1,18 @@
 # 🚗 Car Sales Performance Analysis
 ### Capstone Project – Data Analysis with Python & Power BI  
-**Author:** Giuseppe  
-**Year:** 2026
 
 ---
 
 # 📌 Project Overview
 
-Questo progetto analizza le **performance di vendita, il comportamento dei clienti e l'efficienza dello stock** di una concessionaria automobilistica.
+This project analyzes the **sales performance, customer behavior, and inventory efficiency** of an automotive dealership.
 
-L’obiettivo è trasformare i dati operativi in **insight strategici** utili per supportare decisioni aziendali basate sui dati.
+The goal of the analysis is to transform operational sales and inventory data into **strategic insights that support data-driven business decisions**.
 
-Il progetto utilizza:
+The project uses:
 
-- **Python** per il data cleaning
-- **Power BI** per la dashboard interattiva
+- **Python** for data cleaning
+- **Power BI** for building the interactive dashboard
 
 ---
 
@@ -22,7 +20,7 @@ Il progetto utilizza:
 
 ![Home](images/0_home.png)
 
-La home della dashboard funge da **hub di navigazione** e consente di accedere rapidamente alle diverse sezioni analitiche del progetto.
+The dashboard home page acts as a **navigation hub**, allowing users to quickly access the different analytical sections of the project.
 
 ---
 
@@ -30,16 +28,16 @@ La home della dashboard funge da **hub di navigazione** e consente di accedere r
 
 ![Executive Overview](images/1_Executive%20Overview.png)
 
-Questa sezione fornisce una panoramica generale delle performance della concessionaria.
+This section provides a high-level overview of the dealership’s overall performance.
 
-KPI principali:
+Main KPIs:
 
-- Fatturato totale
-- Revenue growth
-- Numero clienti
-- Quantità vendute
+- Total Revenue
+- Revenue Growth
+- Number of Customers
+- Units Sold
 
-È presente inoltre l’andamento del **fatturato mensile** e la distribuzione delle vendite per brand.
+It also includes the **monthly revenue trend** and the distribution of sales by brand.
 
 ---
 
@@ -47,16 +45,16 @@ KPI principali:
 
 ![Sales Analysis](images/2_Sales%20Analysis.png)
 
-Questa pagina analizza i principali driver delle vendite.
+This page analyzes the main drivers of sales performance.
 
-Le analisi includono:
+The analysis includes:
 
-- fatturato per brand
-- distribuzione delle vendite per tipo di motore
-- relazione tra prezzo medio e unità vendute
-- vendite per segmento di prezzo
+- revenue by brand
+- sales distribution by engine type
+- relationship between average price and units sold
+- sales by price segment
 
-Questo permette di comprendere **quali strategie di prezzo generano le migliori performance**.
+This helps identify **which pricing strategies and brands generate the best performance**.
 
 ---
 
@@ -64,15 +62,15 @@ Questo permette di comprendere **quali strategie di prezzo generano le migliori 
 
 ![Customer Insights](images/3_Customer%20Insights.png)
 
-La sezione Customer Insights analizza il comportamento dei clienti.
+The Customer Insights section analyzes customer purchasing behavior.
 
-Include:
+It includes:
 
-- fatturato per fascia di età
-- vendite per città
-- top clienti
+- revenue by age group
+- sales by city
+- top customers
 
-Questo aiuta a identificare **i segmenti di clientela più profittevoli**.
+This analysis helps identify **the most profitable customer segments**.
 
 ---
 
@@ -80,15 +78,15 @@ Questo aiuta a identificare **i segmenti di clientela più profittevoli**.
 
 ![Time Trends](images/4_Time%20Trends.png)
 
-Questa sezione analizza l’evoluzione delle vendite nel tempo.
+This section analyzes how sales evolve over time.
 
-Indicatori principali:
+Main indicators include:
 
 - Sales YTD
-- Month over Month growth
-- Year over Year growth
+- Month-over-Month growth
+- Year-over-Year growth
 
-Il grafico permette di identificare **trend stagionali e variazioni delle vendite**.
+The chart allows us to identify **seasonal trends and variations in sales performance**.
 
 ---
 
@@ -96,13 +94,13 @@ Il grafico permette di identificare **trend stagionali e variazioni delle vendit
 
 ![Model Performance](images/5_Product%20&%20Stock%20Model.png)
 
-Questa sezione analizza la relazione tra:
+This section analyzes the relationship between:
 
-- vendite dei modelli
-- unità vendute
-- stock disponibile
+- model sales performance
+- units sold
+- available stock
 
-È stato sviluppato uno **Stock Pressure Index** per valutare l'efficienza della rotazione dello stock.
+A **Stock Pressure Index** was developed to evaluate the efficiency of inventory turnover.
 
 ---
 
@@ -110,16 +108,18 @@ Questa sezione analizza la relazione tra:
 
 ![Strategic Insights](images/6_Strategic%20Insights.png)
 
-Questo grafico mette in relazione:
+This chart compares:
 
-- performance di vendita
-- pressione dello stock
+- sales performance
+- stock pressure
 
-Lo scatter plot è diviso in quattro quadranti che permettono di individuare:
+The scatter plot is divided into four quadrants that help identify:
 
-- top performer
-- opportunità di crescita
-- aree critiche di stock.
+- top performers
+- growth opportunities
+- critical stock areas
+
+This analysis helps highlight **brands that may require strategic attention**.
 
 ---
 
@@ -127,12 +127,14 @@ Lo scatter plot è diviso in quattro quadranti che permettono di individuare:
 
 ![Product Stock](images/7_Product%20&%20Stock.png)
 
-Questa pagina analizza nel dettaglio:
+This page provides a deeper analysis of inventory management.
 
-- valore dell’inventario
-- unità disponibili in stock
-- rischio di stock elevato
-- distribuzione dei modelli per livello di rischio.
+It includes:
+
+- inventory value by brand
+- units available in stock
+- high stock risk
+- model distribution by stock risk level
 
 ---
 
@@ -140,28 +142,28 @@ Questa pagina analizza nel dettaglio:
 
 ![Strategic Recommendations](images/8_Strategic%20Recommendations.png)
 
-L’ultima sezione traduce i risultati dell’analisi in **raccomandazioni strategiche**.
+The final section translates analytical insights into **strategic recommendations**.
 
-Azioni suggerite:
+Suggested actions include:
 
-- riallocazione dello stock
-- revisione delle strategie di pricing
-- monitoraggio dello stock pressure index
-- focus sui brand con maggiore crescita.
+- inventory rebalancing
+- pricing strategy review
+- continuous monitoring of the stock pressure index
+- focusing on high-growth brands
 
 ---
 
 # 🧹 Data Cleaning (Python)
 
-Le principali operazioni di pulizia dei dati includono:
+The main data cleaning operations include:
 
-- rimozione valori nulli
-- conversione dei tipi di dato
-- pulizia colonne prezzo
-- gestione duplicati
-- conversione delle date
+- removing missing values
+- converting data types
+- cleaning price columns
+- handling duplicates
+- converting date columns
 
-Esempio:
+Example:
 
 ```python
 import pandas as pd
@@ -174,10 +176,4 @@ df["Price"] = df["Price"].replace(r'[$,]', '', regex=True).astype(float)
 
 df["Sale_Date"] = pd.to_datetime(df["Sale_Date"])
 
-df = df.drop_duplicates()
-
-# Conversione data
-df["Sale_Date"] = pd.to_datetime(df["Sale_Date"])
-
-# Verifica duplicati
 df = df.drop_duplicates()
