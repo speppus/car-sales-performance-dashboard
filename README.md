@@ -45,7 +45,7 @@ KPI principali:
 
 # 🚘 Sales Performance Analysis
 
-![Sales Analysis](images/2_Sales Analysis.png)
+![Sales Analysis](images/2_Sales%20Analysis.png)
 
 Questa pagina analizza i principali driver delle vendite.
 
@@ -62,7 +62,7 @@ Questo permette di comprendere **quali strategie di prezzo generano le migliori 
 
 # 👥 Customer Insights
 
-![Customer Insights](images/3_Customer Insights.png)
+![Customer Insights](images/3_Customer%20Insights.png)
 
 La sezione Customer Insights analizza il comportamento dei clienti.
 
@@ -78,7 +78,7 @@ Questo aiuta a identificare **i segmenti di clientela più profittevoli**.
 
 # 📅 Sales Trends Over Time
 
-![Time Trends](images/4_Time Trends.png)
+![Time Trends](images/4_Time%20Trends.png)
 
 Questa sezione analizza l’evoluzione delle vendite nel tempo.
 
@@ -94,7 +94,7 @@ Il grafico permette di identificare **trend stagionali e variazioni delle vendit
 
 # 📦 Model Performance & Stock Pressure
 
-![Model Performance](images/5_Product & Stock Model.png)
+![Model Performance](images/5_Product%20&%20Stock Model.png)
 
 Questa sezione analizza la relazione tra:
 
@@ -108,7 +108,7 @@ Questa sezione analizza la relazione tra:
 
 # 📊 Strategic Insights
 
-![Strategic Insights](images/6_Strategic Insights.png)
+![Strategic Insights](images/6_Strategic%20Insights.png)
 
 Questo grafico mette in relazione:
 
@@ -125,7 +125,7 @@ Lo scatter plot è diviso in quattro quadranti che permettono di individuare:
 
 # 📦 Product & Stock Analysis
 
-![Product Stock](images/7_Product & Stock.png)
+![Product Stock](images/7_Product%20&%20Stock.png)
 
 Questa pagina analizza nel dettaglio:
 
@@ -138,7 +138,7 @@ Questa pagina analizza nel dettaglio:
 
 # 🎯 Strategic Recommendations
 
-![Strategic Recommendations](images/8_Strategic Recommendations.png)
+![Strategic Recommendations](images/8_Strategic%20Recommendations.png)
 
 L’ultima sezione traduce i risultati dell’analisi in **raccomandazioni strategiche**.
 
